@@ -1,0 +1,35 @@
+{
+  "name": "tuyeyetable",
+  "version": "1.0.0",
+  "description": "對 umi 的 ProTable 進行了拓展和美化樣式和邏輯，新增 “增”、“刪”、“改”，快速開始 CURD",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "src/**",
+    "lib/**"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuyeye/tuyeyetable.git"
+  },
+  "author": "tuyeye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuyeye/tuyeyetable/issues"
+  },
+  "homepage": "https://github.com/tuyeye/tuyeyetable#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "react": "^17.0.2",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@ant-design/pro-form": "^1.30.0",
+    "@ant-design/pro-table": "^2.43.0",
+    "antd": "^4.16.5"
+  }
+}
