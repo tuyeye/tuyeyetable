@@ -3,11 +3,11 @@
 ## 📦 Install
 
 ```bash
-npm install tuyeyetable
+npm install @tuyeye/tuyeyetable
 ```
 
 ```bash
-yarn add tuyeyetable
+yarn add @tuyeye/tuyeyetable
 ```
 
 ## 🔨 Usage

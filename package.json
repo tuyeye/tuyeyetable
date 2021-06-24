@@ -1,9 +1,12 @@
 {
-  "name": "tuyeyetable",
+  "name": "@tuyeye/tuyeyetable",
   "version": "1.0.0",
   "description": "對 umi 的 ProTable 進行了拓展和美化樣式和邏輯，新增 “增”、“刪”、“改”，快速開始 CURD",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/tuyeye"
   },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
