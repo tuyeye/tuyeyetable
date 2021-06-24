@@ -15,7 +15,7 @@ yarn add @tuyeye/tuyeyetable
 ```tsx
 import * as React from "react";
 import { Alert, message } from 'antd';
-import TuyeeTable, { TuyeeTableProps, cudProps } from 'tuyeyetable';
+import TuyeeTable, { TuyeeTableProps, cudProps } from '@tuyeye/tuyeyetable';
 import { ProFormText } from '@ant-design/pro-form';
 
 
