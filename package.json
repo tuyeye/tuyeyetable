@@ -5,9 +5,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/tuyeye"
-  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
