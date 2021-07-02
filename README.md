@@ -226,6 +226,7 @@ ProTableProps & EditableProTableProps :https://procomponents.ant.design/componen
 | onFinish | (row: any, action: ActionType | undefined) => Promise<boolean> | 點擊確定後的回調，（row：當前行的數據，action：tableAction），請返回 boolean 類型	 | - |
 | content | string | 提示內容 | 	"你确定要移除此行吗？" |
 | triggerText | string | 觸發彈窗按鈕的文字配置 | "删除" |
+| isRender | (row:any)=>boolean | 是否渲染，通常用作條件判斷 | - |
     
 ### cudProps.update
        
@@ -235,3 +236,4 @@ ProTableProps & EditableProTableProps :https://procomponents.ant.design/componen
 | type | "line" or "drawer" | 類型，支持 行內編輯 和 抽屜彈出表單編輯 | - |
 | isPatch | { addKey?: boolean } or boolean | 是否需要局部更新，如果需要請傳遞 { addKey?: boolean } 或者 true，如果為 ture 或者對象裡面沒有指定 addKey，則不會添加主鍵字段，否則將會添加一個主鍵字段，設置此參數後，onFinish 中的changes會因此而改變 | - |
 | triggerText |string | 觸發文字配置 | "編輯" |
+| isRender | (row:any)=>boolean | 是否渲染，通常用作條件判斷 | - |
