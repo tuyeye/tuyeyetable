@@ -182,17 +182,6 @@ const page: React.FC = () => {
 export default page;
 ```
 
-## ⌨️ Development
-
-```bash
-$ git clone git@github.com:tuyeye/TuyeeTable.git
-$ cd TuyeeTable
-$ npm install
-$ npm start
-```
-
-Open your browser and visit http://127.0.0.1:3333
-
 ## 🏆 Props（ProTableProps & EditableProTableProps & cudProps）
 
 ProTableProps & EditableProTableProps :https://procomponents.ant.design/components/table#api
